@@ -1,4 +1,4 @@
-gem "bitescript", "0.0.6"
+gem "bitescript", "0.0.9"
 require 'bitescript'
 
 module RubyHaze

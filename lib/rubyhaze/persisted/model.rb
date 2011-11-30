@@ -1,10 +1,10 @@
-gem "activesupport", "3.0.0"
+gem "activesupport", "3.0.11"
 require "active_support/core_ext/module/attr_accessor_with_default"
 require "active_support/core_ext/object/blank"
 require "active_support/concern"
 require "active_support/callbacks"
 
-gem "activemodel", "3.0.0"
+gem "activemodel", "3.0.11"
 require "active_model"
 
 module RubyHaze

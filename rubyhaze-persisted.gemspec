@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rubyhaze-persisted}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
   s.platform = %q{jruby}
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -46,20 +46,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rubyhaze>, ["~> 0.0.6"])
-      s.add_runtime_dependency(%q<bitescript>, ["= 0.0.6"])
-      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.0"])
-      s.add_runtime_dependency(%q<activemodel>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<bitescript>, ["= 0.0.9"])
+      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.11"])
+      s.add_runtime_dependency(%q<activemodel>, ["~> 3.0.11"])
     else
       s.add_dependency(%q<rubyhaze>, ["~> 0.0.6"])
-      s.add_dependency(%q<bitescript>, ["= 0.0.6"])
-      s.add_dependency(%q<activesupport>, ["~> 3.0.0"])
-      s.add_dependency(%q<activemodel>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<bitescript>, ["= 0.0.9"])
+      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.11"])
+      s.add_runtime_dependency(%q<activemodel>, ["~> 3.0.11"])
     end
   else
     s.add_dependency(%q<rubyhaze>, ["~> 0.0.6"])
-    s.add_dependency(%q<bitescript>, ["= 0.0.6"])
-    s.add_dependency(%q<activesupport>, ["~> 3.0.0"])
-    s.add_dependency(%q<activemodel>, ["~> 3.0.0"])
+    s.add_runtime_dependency(%q<bitescript>, ["= 0.0.9"])
+    s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.11"])
+    s.add_runtime_dependency(%q<activemodel>, ["~> 3.0.11"])
   end
 end
 
